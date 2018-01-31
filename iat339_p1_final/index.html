@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>DreamNest</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+
+	</head>
+
+	<body>
+		<!-- base on project 1 Template -->
+
+
+		<h1>P01 - Style Guide </h1>
+
+		<p>A style guide I can use to lead me when I design the web</p>
+
+
+		<!-- nav sample from project 1 template -->
+
+	    <nav>
+	      
+	      <p>
+	        On this page:
+	      </p>
+	      <ul>
+	        <li>
+	          <a href="#interactive_elements" class="intext-link">Interactive Elements</a>
+	        </li>
+	        <li>
+	          <a href="#text_elements" class="intext-link">Text Elements</a>
+	        </li>
+	        <li>
+	          <a href="#combined_elements" class="intext-link">Combined Elements</a>
+	        </li>
+	      </ul>
+
+	      <p class="links">
+	        Link for other two pages: 
+	        <a href="https://iw0kmw.axshare.com" class="links">User-flows</a>
+	        <a href="citation.html" class="links">Citations</a>
+	      </p>
+
+	    </nav>
+
+		        <!-- INTERACTIVE ELEMENTS SECTION // -->
+	    <section id="interactive_elements">
+
+	      <!-- Default Button styling section -->
+	      <section>
+
+	        <h2>Navigation Button</h2>
+
+	        <h3>CSS selector:</h3>
+	        <p>.button-nav</p>
+
+	        <h3>Sample code:</h3>
+	        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+	        <h3>Rendered element:</h3>
+	        <a class="button-nav" href="#">Default Button</a>
+
+	      </section>
+
+<!-- 
+	      intext link section -->
+	      <section>
+	        <h2>In-text link</h2>
+	        <h3>CSS selector:</h3>
+	        <p>.intext-link</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;a href="#" &gt;In-Text Link&lt;/a&gt;</code>   
+
+	     	<h3>Rendered element:</h3>
+	        <a class="intext-link" href="https://iw0kmw.axshare.com">Home Page</a>
+
+	      </section>
+
+	      <section>
+	        <h2>Submit/Reset Buttons</h2>
+	       	<h3>CSS selector:</h3>
+	        <p>.submitButton</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;input type="submit" value="Submit"&gt;</code>   
+	     	<h3>Rendered element:</h3>
+	        <input type="submit" class="submitButton" value="Submit">
+
+	      </section>
+
+	      <section>
+	        <h2>Text Input Field</h2>
+	       	<h3>CSS selector:</h3>
+	        <p>.textInput</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;input type="text" value="Default text input field"&gt;</code> 
+	     	<h3>Rendered element:</h3>
+	     	<input type="text" value="Your Address.." class="textInput" >  
+	      </section>
+
+	    </section>
+
+	        <!-- TEXT ELEMENTS SECTION // -->
+	    <section id="text_elements">
+
+	      <section>
+	        <h2>Headings</h2>
+	       	<h3>CSS selector:</h3>
+	        <p>.headingStyle</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>  
+	     	<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>  
+	     	<code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>   
+	     	<h3>Rendered element:</h3>
+	     	<h1 class="headingStyle"> Heading 1</h1>
+	     	<h2 class="headingStyle"> Heading 2</h2>
+	     	<h3 class="headingStyle"> Heading 3</h3>
+
+	      </section>
+
+	      <section>
+	        <h2>Paragraphs</h2>
+		    <h3>CSS selector:</h3>
+	        <p>.paragraphStyle</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;p&gt;This is a sample paragraph of my style guide&lt;/p&gt;</code>   
+	     	<h3>Rendered element:</h3>
+	     	<p class="paragraphStyle">This is a sample paragraph of my style guide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	      </section>
+
+	      <section>
+	        <h2>Bulleted Lists</h2>
+	   		<h3>CSS selector:</h3>
+	        <p>.bullList</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;ul&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ul&gt;</code>  
+	     	<h3>Rendered element:</h3>
+	     	<ul class="bullList">
+	     		<li> List 1</li>
+	     		<li> List 2</li>
+	     		<li> List 3</li>
+	     	</ul>
+
+	      </section>
+
+	      <section>
+	        <h2>Numbered Lists</h2>
+	       	<h3>CSS selector:</h3>
+	        <p>.numList</p>
+	        <h3>Sample Code:</h3>
+	     	<code>&lt;ol&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ol&gt;</code> 
+	    	<h3>Rendered element:</h3>
+	     	<ol class="numList">
+	     		<li> List 1</li>
+	     		<li> List 2</li>
+	     		<li> List 3</li>
+	     	</ol>
+ 	 
+	      </section>
+
+	    </section>
+	    <!-- // TEXT ELEMENTS SECTION -->
+
+
+		        <!-- COMBINED ELEMENTS SECTION // -->
+	    <section id="combined_elements">
+
+	      <section>
+	        <h2>Main Navigation</h2>
+	       	<h3>CSS selector:</h3>
+	        <p>.nav1</p>
+	        <h3>Sample Code:</h3>
+	        <code>&lt;ul&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page1&lt;/a&gt;&lt;/li&gt;
+	        	<br>&lt;li&gt;&lt;a href="#"&gt;Page2&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page3&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;</code>  
+	       	<h3>Rendered element:</h3>
+	       	<ul class="nav1">
+	       		<li class="nav2"><a class="nav2" href="https://iw0kmw.axshare.com/#g=1&p=gameconsolehomepage"><img class="nav1" src="img/placeholder.png" alt="logo placeholder"></a></li>
+	       		<li class="nav1"><a class="nav1" href="#">Profiles</a></li>
+	       		<li class="nav1"><a class="nav1" href="#">Declutter</a></li>
+	       		<li class="nav1"><a class="nav1" href="https://iw0kmw.axshare.com/#g=1&p=showcase_page">Showcase</a></li>
+	       		<li class="nav1"><a class="nav1" href="#">Craft</a></li>
+	       	</ul>
+
+	      </section>
+	      <br><br><br>
+	      <section>
+	        <h2>Product Listing</h2>
+	        <p>The wireframes have some sample of my grid stucture, and different forms for different services. Please check the wireframe  	        <a href="https://iw0kmw.axshare.com" class="links">User-flows</a></p>
+
+
+	      </section>
+
+	    </section>
+	    <!-- // COMBINED ELEMENTS SECTION -->
+
+</html>
