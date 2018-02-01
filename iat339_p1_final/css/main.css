@@ -25,17 +25,19 @@ section:not([id]) {
 }
 
 .button-nav:hover, .button-nav:focus{
-	text-decoration: underline;
+	text-decoration: none;
+  border: 0.1rem solid #F3A086;
 }
 
 .intext-link{
-	color:#616161;
+	color:#E0E0E0;
 	text-decoration: none;
 	background-color: white;
 }
 
 .intext-link:hover, .intext-link:focus{
 	text-decoration: underline;
+  color: #90CAF9;
 }
 
 /*//resource from W3school example*/
@@ -48,21 +50,30 @@ section:not([id]) {
     text-align: center;
     display: inline-block;
     text-decoration: none;
+    outline: none;
 
 }
 
 
 .submitButton:hover, .submitButton:focus{
-	text-decoration: underline;
+	border: 0.1rem solid #F3A086;
 }
 
 /*//resource from W3school example*/
 input[type=text]{
 	margin: 1rem;
+  margin-left: 0rem;
 	display: block;
 	border: 0.1rem solid #616161;
 	width: 30%;
 	padding: 0.5rem 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+    border: 0.1rem solid #F3A086;
 }
 
 h1.headingStyle{
@@ -113,13 +124,13 @@ li.nav1{
 li.nav1, a.nav1 {
 	display: block;
 	text-align: center;
-	padding-top: 5rem;	
+	padding-top: 5rem;
 	width:100px;
 	padding-right: 0;
 	padding-left: 0;
 	margin: 0;
 	text-decoration: none;
-	
+
 }
 
 li.nav2{
@@ -169,6 +180,5 @@ h3.headingStyle{
 }
 
 .numList{
-	padding-left: 3rem;	
+	padding-left: 3rem;
 }
-
