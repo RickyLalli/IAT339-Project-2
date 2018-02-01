@@ -120,6 +120,8 @@ li.nav1{
 
 
 
+
+
 /*//resources from W3school navigation button*/
 li.nav1, a.nav1 {
 	display: block;
@@ -139,27 +141,30 @@ li.nav2{
 
 li.nav2, a.nav2{
 	width: 40%;
-	display: block;
-	padding: 1rem 0.5rem;
+	display: inline;
+	padding: 5rem 0 0;
 
 	text-decoration: none;
 
 }
 
 img.nav1{
-	width:300px;
-	display: block;
+	width:100px;
+	display: inline;
 
 }
 
 a.nav1{
+
 	color:#616161;
 	text-decoration: none;
 	background-color: white;
 }
 
+
 a.nav1:hover, a.nav1:focus{
-	text-decoration: underline;
+	text-decoration: none;
+  color: #90CAF9;
 }
 
 
