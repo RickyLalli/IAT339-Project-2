@@ -73,7 +73,7 @@ input[type=text]{
 }
 
 input[type=text]:focus {
-    border: 0.1rem solid #F3A086;
+    border: 0.1rem solid #b3e5fc;
 }
 
 h1.headingStyle{
