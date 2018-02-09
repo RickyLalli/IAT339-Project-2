@@ -6,6 +6,55 @@
 
 }
 
+.nav-{
+	width: 100%;
+	background-color: white;
+
+}
+
+li.nav1 {
+  float: right;
+}
+
+
+img.nav1 {
+  width: 100px;
+  display: inline;
+}
+
+li.nav2 {
+  float: left;
+}
+
+li.nav2, a.nav2 {
+  width: 40%;
+  display: inline;
+  padding: 0 0;
+  text-decoration: none;
+}
+a.nav1 {
+  color: #616161;
+  text-decoration: none;
+  background-color: white;
+}
+
+a.nav1:hover, a.nav1:focus {
+  text-decoration: none;
+  color: #90CAF9;
+}
+/*//resources from W3school navigation button*/
+
+li.nav1, a.nav1 {
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
 #subscription{
 	width:100%;
 	display: block;
@@ -73,6 +122,76 @@ h2.readmore{
 
 img.moreImage{
 	width: 100%;
+}
+
+.footer a {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.wrapper a:hover, .wrapper a:focus {
+  text-decoration: none;
+  color: #90CAF9;
+}
+
+.wrapper a {
+  color: #808080;
+  text-decoration: none;
+  text-align: left;
+  /* background-color: white; */
+}
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #E8E8E8;
+  padding: 60px, 0px;
+  margin-top: -120px;
+ /* negative value of footer height */
+ height: 120px;
+ clear: both;
+}
+
+h2.aboutus{
+	margin-top: 7rem;
+	margin-left: 10%;
+}
+h4.aboutus{
+	margin-top: 3rem;
+	margin-left: 10%;
+	text-align: left;
+}
+ul.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  border-right: 0.1rem solid #616161;
+}
+
+.footerMid {
+  text-align: center;
+}
+
+.footerRight {
+  text-align: center;
+}
+
+.leftSide {
+  display: inline-block;
+  width: 30%;
+}
+
+.middleSide {
+  display: inline-block;
+  width: 30%;
+}
+
+.rightSide {
+  display: inline-block;
+  width: 39%;
+  padding: 10px;
+  float: right;
 }
 
 figure.more{
@@ -149,6 +268,7 @@ a.button-nav:hover{
 	text-decoration: underline;
 /*	color:white;*/
 }
+
 
 
 input[type=text]{
