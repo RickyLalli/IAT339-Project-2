@@ -1,0 +1,220 @@
+.grid-row-nav{
+	width:50%;
+
+	opacity: 0.85;
+	display: inline-block;
+
+}
+
+#subscription{
+	width:100%;
+	display: block;
+}
+
+#subscriptionheader{
+	margin-left: 5%;
+	margin-bottom: 2%;
+
+	margin-top: 3%;
+}
+
+#subscriptionButton{
+	margin-left: 40%;
+		margin-right: : 40%;
+		margin-top: 30rem;
+
+	text-align: center;
+	display: block;
+
+	width: 20%;
+	height: 3rem;
+}
+
+#shareSpace{
+	width: 20%;
+	height: 3rem;
+	text-align: center;;
+	display: block;
+	margin-left: 50%;
+	margin-top: 73rem;
+
+}
+h2{
+	text-align: left;
+}
+h3{
+	text-align: left;
+	font-weight: thin;
+}
+p{
+	text-align: left;
+}
+.title{
+	margin-top: 5rem;
+}
+.title1{
+	text-align: center;
+}
+
+figure.ads{
+	margin-bottom: 3rem;
+}
+img.adsImage{
+	width:80%;
+}
+
+.moreArticle{
+	margin-left: 5%;
+}
+h2.readmore{
+	width: 100%;
+	text-align: center;
+}
+
+img.moreImage{
+	width: 100%;
+}
+
+figure.more{
+	margin:0;
+}
+
+div.readMore{
+	width: 100%;
+
+	margin-top: 85rem;
+}
+
+figure.prize1{
+	width:100%;
+}
+
+img.prize1Image{
+	width:90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+figure.otherdesign{
+	width: 90%;
+	margin-left: 20%;
+}
+img.designImage{
+	width:100%;
+
+
+}
+.title{
+	width: 80%;
+}
+h3.article{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: 10%;
+}
+p.article{
+	width:90%;
+	margin-left: 10%;
+}
+p.article2{
+	width:90%;
+	margin-left: 20%;
+}
+.otherdesign{
+	width: 100%;
+}
+.header{
+
+}
+.logo{
+	width:30%;
+	display: inline-block;
+	margin-right: 10%;
+}
+
+.logoFigure{
+	width:100%;
+}
+.logoImage{
+	width: 100%;
+}
+
+a.button-nav{
+	font-family: 'Raleway', sans-serif;
+	color:black;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+a.button-nav:hover{
+	text-decoration: underline;
+/*	color:white;*/
+}
+
+
+input[type=text]{
+	width: 100%;
+	padding: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+input.cvvtext{
+	margin: 0;
+	width:80%;
+}
+
+select{
+	width:100%;
+	padding:0,5rem;
+}
+
+
+head,body{
+		font-family: 'Raleway', sans-serif;
+}
+
+input[type=radio]{
+	width:30%;
+}
+nav {
+	/*
+		Setting position to fixed means that our navigation
+		will not move when we scroll the page. Also, because
+		we are positioning something fixed, the other elements
+		on the page ignore it when they are flowed
+	*/
+	position: fixed;
+
+	
+/*		We can only specify distance from top, right, bottom or 
+		left when we have specified a positioning type other than
+		static (the default value)*/
+	
+	top: 0;
+
+	font-family: 'Raleway', sans-serif;
+
+	/* 
+		Setting a z-index property changes the layering of items
+		that also have a positioning set. In this example, setting 
+		the z-index to 100 means that our navigation will be layered
+		above anything up to layer 99.
+	*/
+	z-index: 100;
+}
+
+select,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
