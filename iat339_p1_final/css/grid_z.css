@@ -21,6 +21,9 @@ div.grid-col-1of3{
 	width: 30%;
 	margin-right: 3.3%;
 }
+div.grid-col-2of3{
+	width:60%;
+}
 div.grid-col-1of3-2{
 
 	width: 30%;

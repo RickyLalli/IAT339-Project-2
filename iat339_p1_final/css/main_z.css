@@ -78,14 +78,31 @@ li.nav1, a.nav1 {
 	width: 20%;
 	height: 3rem;
 }
+.articleList{
+	margin-top:5rem;
+}
 
+a.articleList2{
+	text-decoration: none;
+	color: black;
+}
+
+a.articleList2:hover{
+	text-decoration: underline;
+}
+
+.articleList2{
+	display: inline-block;
+	margin-bottom: 2rem;
+
+}
 #shareSpace{
 	width: 20%;
 	height: 3rem;
 	text-align: center;;
 	display: block;
 	margin-left: 50%;
-	margin-top: 73rem;
+	margin-top: 3rem;
 
 }
 h2{
@@ -295,6 +312,9 @@ head,body{
 input[type=radio]{
 	width:30%;
 }
+
+
+
 nav {
 	/*
 		Setting position to fixed means that our navigation
