@@ -6,6 +6,55 @@
 
 }
 
+.nav-{
+	width: 100%;
+	background-color: white;
+
+}
+
+li.nav1 {
+  float: right;
+}
+
+
+img.nav1 {
+  width: 100px;
+  display: inline;
+}
+
+li.nav2 {
+  float: left;
+}
+
+li.nav2, a.nav2 {
+  width: 40%;
+  display: inline;
+  padding: 0 0;
+  text-decoration: none;
+}
+a.nav1 {
+  color: #616161;
+  text-decoration: none;
+  background-color: white;
+}
+
+a.nav1:hover, a.nav1:focus {
+  text-decoration: none;
+  color: #90CAF9;
+}
+/*//resources from W3school navigation button*/
+
+li.nav1, a.nav1 {
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100px;
+  padding-right: 0;
+  padding-left: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
 #subscription{
 	width:100%;
 	display: block;
@@ -29,14 +78,31 @@
 	width: 20%;
 	height: 3rem;
 }
+.articleList{
+	margin-top:5rem;
+}
 
+a.articleList2{
+	text-decoration: none;
+	color: black;
+}
+
+a.articleList2:hover{
+	text-decoration: underline;
+}
+
+.articleList2{
+	display: inline-block;
+	margin-bottom: 2rem;
+
+}
 #shareSpace{
 	width: 20%;
 	height: 3rem;
 	text-align: center;;
 	display: block;
 	margin-left: 50%;
-	margin-top: 73rem;
+	margin-top: 3rem;
 
 }
 h2{
@@ -74,6 +140,8 @@ h2.readmore{
 img.moreImage{
 	width: 100%;
 }
+
+
 
 figure.more{
 	margin:0;
@@ -151,6 +219,7 @@ a.button-nav:hover{
 }
 
 
+
 input[type=text]{
 	width: 100%;
 	padding: 0.5rem;
@@ -175,6 +244,9 @@ head,body{
 input[type=radio]{
 	width:30%;
 }
+
+
+
 nav {
 	/*
 		Setting position to fixed means that our navigation
@@ -184,18 +256,18 @@ nav {
 	*/
 	position: fixed;
 
-	
-/*		We can only specify distance from top, right, bottom or 
+
+/*		We can only specify distance from top, right, bottom or
 		left when we have specified a positioning type other than
 		static (the default value)*/
-	
+
 	top: 0;
 
 	font-family: 'Raleway', sans-serif;
 
-	/* 
+	/*
 		Setting a z-index property changes the layering of items
-		that also have a positioning set. In this example, setting 
+		that also have a positioning set. In this example, setting
 		the z-index to 100 means that our navigation will be layered
 		above anything up to layer 99.
 	*/

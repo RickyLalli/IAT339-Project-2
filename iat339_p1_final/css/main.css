@@ -4,17 +4,28 @@ head, body {
   font-family: 'Raleway', sans-serif;
 }
 
+body {
+  margin: 0 0 180px;
+  padding: 25px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 /*//resource from styleguide sample*/
 
 section:not([id]) {
-  margin: 1rem 0;
-  padding: 0.5rem 0;
-  border-top: 0.15rem solid #333;
+  /* margin: 1rem 0;
+  padding: 0.5rem 0; */
+  /* border-top: 0.15rem solid #333; */
 }
 
 /*button style*/
 
 .button-nav {
+
   background-color: white;
   color: black;
   border: 0.1rem solid #555555;
@@ -87,6 +98,13 @@ h1.headingStyle {
   font-weight: normal;
 }
 
+h1.pageheader {
+  margin: 1em auto;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
 p.links {
   color: red;
 }
@@ -147,12 +165,14 @@ li.nav2, a.nav2 {
 img.nav1 {
   width: 100px;
   display: inline;
+  margin-top: 10px;
 }
 
 a.nav1 {
   color: #616161;
   text-decoration: none;
   background-color: white;
+  margin-bottom: 5px;
 }
 
 a.nav1:hover, a.nav1:focus {
@@ -188,6 +208,13 @@ section.mainCarousel {
   margin: 0 auto;
 }
 
+/* either fix img size, or change images */
+
+.carouselImgSize {
+  width: 100%;
+  height: 700px;
+}
+
 /* Image hidden by default */
 
 .mySlides {
@@ -220,7 +247,7 @@ section.mainCarousel {
 /* On hover, add a black background color with a little bit see-through */
 
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* Caption text */
@@ -241,11 +268,12 @@ section.mainCarousel {
 /* Number text (1/3 etc) */
 
 .numbertext {
-  color: #f2f2f2;
+  color: #90CAF9;
   font-size: 1.5rem;
   font-weight: lighter;
   padding: 12px;
   position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
   top: 0;
 }
 
@@ -296,16 +324,22 @@ section.mainCarousel {
 
 /* styling the article containers */
 
+.articles {
+  display: flex;
+}
+
 .article_container {
   max-width: 1000px;
   margin: 0 auto;
-
 }
 
 .articleListing {
   width: 700px;
   float: left;
+
 }
+
+
 
 .otherListings {
   width: 300px;
@@ -314,43 +348,29 @@ section.mainCarousel {
 
 .article {
   display: inline-block;
-  max-width: 20em;
+  width: 18em;
+  /* height: 20rem; */
   padding: 0.5em;
   border: 0.1em solid #000;
   position: relative;
   margin: 5px;
+  vertical-align: top;
+  background: #fff;
 }
 
-.a1 .img {
+.articleListing .article {
+  border: 0.1em solid #90CAF9;
+}
+
+.articleListing img {
   min-height: auto;
   max-width: auto;
   width: 15em;
-  height: 700px;
+  height: 15em;
   position: relative;
 }
 
-.a2 .img {
-  min-height: auto;
-  max-width: auto;
-  width: 15em;
-  height: 100px;
-  position: relative;
-}
-
-.a3 .img {
-  min-height: auto;
-  max-width: auto;
-  width: 15em;
-  height: 100px;
-  position: relative;
-}
-
-.a4 .img {
-  min-height: auto;
-  max-width: auto;
-  width: 15em;
-  height: 100px;
-  position: relative;
+.a3 img {
 }
 
 .subscriptionBox .img {
@@ -362,13 +382,15 @@ section.mainCarousel {
 }
 
 .eventBox {
-  width: 300px;
-  height: 200px;
-}
-.article.subscriptionBox, .article.eventBox {
-  float: right;
+  width: 250px;
+  height: 100px;
 }
 
+.article.subscriptionBox, .article.eventBox {
+  float: right;
+  min-height: 23rem;
+  width: 15em;
+}
 
 /* #footer {
   width: 100%;
@@ -380,15 +402,22 @@ li.footer {
 } */
 
 footer {
-  position: relative;
+  position: absolute;
   width: 100%;
-  background-color: #E8E8E8;
-  padding: 60px, 0px;
-  margin-top: -120px;
- /* negative value of footer height */
- height: 120px;
- clear: both;
+  background-color: #616161;
+  /* padding: 60px, 0px; */
+  margin-top: -190px;
+  /* negative value of footer height */
+  height: 180px;
+  /* clear: both; */
+
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+
 }
+
+
 
 ul.footer {
   list-style-type: none;
@@ -396,7 +425,9 @@ ul.footer {
   padding: 0;
   overflow: hidden;
   width: 100%;
-  border-right: 0.1rem solid #616161;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .wrapper a:hover, .wrapper a:focus {
@@ -404,11 +435,20 @@ ul.footer {
   color: #90CAF9;
 }
 
+.wrapper {
+  padding-top: 40px;
+}
 .wrapper a {
   color: #808080;
   text-decoration: none;
   text-align: left;
+  margin: 10px 0;
+
   /* background-color: white; */
+}
+
+.footer li {
+  margin: 5px 0;
 }
 
 .footer a {
@@ -426,17 +466,58 @@ ul.footer {
 
 .leftSide {
   display: inline-block;
-  width: 30%;
+  width: 33%;
 }
 
 .middleSide {
   display: inline-block;
-  width: 30%;
+  width: 33%;
 }
 
 .rightSide {
   display: inline-block;
-  width: 39%;
-  padding: 10px;
-  float: right;
+  width: 33%;
+}
+
+footer input[type=text] {
+  display: inline;
+  margin-bottom: 20px;
+
+}
+
+
+
+.fa {
+    padding: 0 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer p {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 0.75em;
+}
+
+
+/* .subscribeInfo {
+  text-align: left;
+} */
+
+
+figure {
+  text-align: left;
+}
+
+.purchase {
+  display: block;
 }
