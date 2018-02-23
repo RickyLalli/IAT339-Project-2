@@ -6,7 +6,7 @@ head, body {
 
 body {
   margin: 0 0 180px;
-  padding: 25px;
+  padding-bottom: 25px;
 }
 
 html {
@@ -520,4 +520,46 @@ figure {
 
 .purchase {
   display: block;
+}
+
+.greySpan {
+  background-color: #DCDCDC;
+  height: 350px;
+  padding: 20px;
+}
+
+.greySpan img {
+  float: left;
+}
+
+.greySpan p {
+  max-width: 1000px;
+}
+
+.subPage {
+  color: #90CAF9;
+}
+
+
+.flex-grid{
+  display: flex;
+  text-align: center;
+}
+.col {
+  flex: 1;
+  margin: 10px;
+  height: 200px;
+}
+
+.col p {
+
+  line-height: 1.5rem;
+}
+
+.col-second {
+  background-color: red;
+}
+
+.selector {
+  /* background-color: green; */
 }
