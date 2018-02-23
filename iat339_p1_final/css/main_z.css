@@ -12,6 +12,7 @@
 
 }
 
+
 li.nav1 {
   float: right;
 }
@@ -245,9 +246,99 @@ input[type=radio]{
 	width:30%;
 }
 
+footer {
+/*  position: absolute;*/
+  width: 100%;
+  background-color: #616161;
+  /* padding: 60px, 0px; */
+  margin-top: 50px;
+  /* negative value of footer height */
+  height: 180px;
+  /* clear: both; */
+
+    left: 0;
+    bottom: 0;
+    overflow:hidden;
+
+}
 
 
-nav {
+
+ul.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.wrapper a:hover, .wrapper a:focus {
+  text-decoration: none;
+  color: #90CAF9;
+}
+
+.wrapper {
+  padding-top: 40px;
+}
+.wrapper a {
+  color: #808080;
+  text-decoration: none;
+  text-align: left;
+  margin: 10px 0;
+
+  /* background-color: white; */
+}
+
+.footer li {
+  margin: 5px 0;
+}
+footer p {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 0.75em;
+}
+
+
+.footer a {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.footerMid {
+  text-align: center;
+}
+
+.footerRight {
+  text-align: center;
+}
+
+.leftSide {
+  display: inline-block;
+  width: 33%;
+}
+
+.middleSide {
+  display: inline-block;
+  width: 33%;
+}
+
+.rightSide {
+  display: inline-block;
+  width: 33%;
+}
+
+footer input[type=text] {
+  display: inline;
+  margin-bottom: 20px;
+
+}
+
+
+.nav- {
 	/*
 		Setting position to fixed means that our navigation
 		will not move when we scroll the page. Also, because
@@ -257,7 +348,7 @@ nav {
 	position: fixed;
 
 
-/*		We can only specify distance from top, right, bottom or
+	/*	We can only specify distance from top, right, bottom or
 		left when we have specified a positioning type other than
 		static (the default value)*/
 
@@ -280,12 +371,10 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
-main,
+main,	
 menu,
-nav,
 section,
 summary {
   display: block;
