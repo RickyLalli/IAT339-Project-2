@@ -5,11 +5,6 @@ head, body {
   font-family: 'Raleway', sans-serif;
 }
 
-body {
-  margin: 0 0 180px;
-  padding-bottom: 25px;
-}
-
 html {
   position: relative;
   min-height: 100%;
@@ -520,6 +515,7 @@ ul.footer {
 footer input[type=text] {
   display: inline;
   margin-bottom: 20px;
+  width: 180px;
 
 }
 
