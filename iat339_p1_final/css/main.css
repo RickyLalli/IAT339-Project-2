@@ -80,7 +80,7 @@ li.nav1, a.nav1 {
   height: 3rem;
 }
 .articleList{
-  margin-top:5rem;
+  margin-top:2rem;
 }
 
 a.articleList2{
@@ -94,7 +94,13 @@ a.articleList2:hover{
 
 .articleList2{
   display: inline-block;
-  margin-bottom: 2rem;
+  margin: 0.5rem 0;
+
+}
+.articleList2_g{
+  display: inline-block;
+  margin: 0.5rem 0;
+  background-color: #F2F3F4;
 
 }
 #shareSpace{
@@ -102,9 +108,14 @@ a.articleList2:hover{
   height: 3rem;
   text-align: center;;
   display: block;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-top: 3rem;
 
+}
+
+div.about{
+  width: 94%;
+  margin:0 3%;
 }
 h2{
   text-align: left;
@@ -117,17 +128,18 @@ p{
   text-align: left;
 }
 .title{
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .title1{
   text-align: center;
 }
 
 figure.ads{
-  margin-bottom: 3rem;
+  margin: 0 3rem;
+    margin-bottom: 3rem;
 }
 img.adsImage{
-  width:80%;
+  width:100%;
 }
 
 .moreArticle{
@@ -151,21 +163,27 @@ figure.more{
 div.readMore{
   width: 100%;
 
-  margin-top: 85rem;
+  border-top: solid 1px;
+  margin-top: 2rem;
 }
 
-figure.prize1{
+  figure.prize1{
+    width: 100%;
+    margin:0;
+  }
+  img.rprize1Image{
   width:100%;
 }
 
 img.prize1Image{
-  width:90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width:94%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 figure.otherdesign{
-  width: 90%;
-  margin-left: 20%;
+  width: 100%;
+  margin:0;
+
 }
 img.designImage{
   width:100%;
@@ -173,20 +191,23 @@ img.designImage{
 
 }
 .title{
-  width: 80%;
+  width: 75%;
 }
 h3.articlez{
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 10%;
 }
-p.articlez{
-  width:90%;
-  margin-left: 10%;
-}
-p.article2{
-  width:90%;
-  margin-left: 20%;
+  p.articlez{
+    width:100%;
+    margin: 1rem 0;
+  }
+  p.article2{
+    width:100%;
+    margin: 1rem 0;
+  }
+div.article2_g{
+  background-color: #F2F3F4;
 }
 .otherdesign{
   width: 100%;
@@ -340,7 +361,13 @@ footer input[type=text] {
 
 }
 
-
+.showcase{
+  display: inline-block;
+}
+  div.showcase{
+    width:94%;
+    margin: 0 3%;   
+  }
 
 
 
@@ -451,6 +478,7 @@ h1.pageheader {
   position: relative;
   display: block;
   text-align: center;
+  font-weight: normal;
 }
 
 p.links {
