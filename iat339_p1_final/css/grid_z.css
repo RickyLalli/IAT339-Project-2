@@ -18,11 +18,12 @@ div.grid-col-1of2{
 
 div.grid-col-1of3{
 
-	width: 30%;
-	margin-right: 3.3%;
+	width: 33%;
+
 }
+
 div.grid-col-2of3{
-	width:60%;
+	width:65%;
 }
 div.grid-col-1of3-2{
 
@@ -32,4 +33,126 @@ div.grid-col-1of3-2{
 .grid-col-1of2-1{
 	width:35%;
 	margin:0 5%;
+}
+
+@media screen and (max-width: 980px) {
+
+
+	.title{
+		width:100%;
+	}
+	div.grid-col-3of4{
+		width:100%;
+	}
+
+	.ads{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 760px) {
+
+	div.readmore2{
+		width:45%;
+		margin:0 2%;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+	div.grid-col-1of2{
+		width:100%;
+		
+	}
+	figure.otherdesign{
+		margin: 0;
+		width: 100%;
+	}
+
+	div.readMore{
+		width: 94%;	
+		margin:2rem 3%;
+		
+	}
+	div.showcase{
+		width:94%;
+		margin: 0 3%;		
+	}
+	div.grid-col-1of3-2{
+
+		width: 100%;
+		
+	}
+	figure.more{
+		width: 100%;
+		margin:0;
+	}
+	img.moreImage{
+		width:100%;
+		margin:0;
+	}
+	div.moreArticle{
+		width:100%;
+		margin:0;
+
+	}
+    div.grid-col-1of3 {
+        width:100%;
+        margin:0;
+    }
+    div.grid-col-2of3 {
+        width:100%;
+        margin:0;
+    }
+
+	img.prize1Image{
+	  width:100%;
+	  margin:0;
+	}
+	div.grid-col-3of4{
+		width:94%;
+		margin: 0 3%;
+	}
+	p.articlez{
+	  width:100%;
+	  margin:1rem 0;
+	}
+	h3.articlez{
+	  width:100%;
+	  margin:2rem 0;
+	}
+
+	p.article2{
+	  width:100%;
+	  margin: 1rem 0;
+	}
+	div.articleList2{
+		width: 100%;
+		margin:0 ;
+	}
+	div.articleList2_g{
+		width: 100%;
+		margin:0 ;
+
+	}
+	figure.prize1{
+		width: 100%;
+		margin:0;
+	}
+	a.articleList2{
+		width: 100%;
+		margin:1rem 0;
+	}
+
+	.ads{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	div.readmore2{
+		width: 100%;
+	}
+
+
+
 }
