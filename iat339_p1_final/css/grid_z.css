@@ -4,6 +4,19 @@
 	text-align: center;
 }
 
+
+div.aboutleft{
+	vertical-align: top;
+	width: 60%;
+	margin:0;
+	display: inline-block;
+}
+
+div.aboutright{
+	display: inline-block;
+	width:35%;
+	margin:0;
+}
 div.grid-col-1of4{
 	width: 25%;
 }
@@ -120,6 +133,14 @@ div.grid-col-1of3-2{
 	  width:100%;
 	  margin:2rem 0;
 	}
+	p.articlez2{
+	  width:100%;
+	  margin:1rem 0;
+	}
+	h3.articlez2{
+	  width:100%;
+	  margin:2rem 0;
+	}
 
 	p.article2{
 	  width:100%;
@@ -146,6 +167,17 @@ div.grid-col-1of3-2{
 	.ads{
 		display: none;
 	}
+}
+
+@media screen and (max-width: 600px) {
+	div.aboutleft{
+		width:100%;
+
+	}
+	div.aboutright{
+		display: none;
+	}
+
 }
 
 @media screen and (max-width: 480px) {

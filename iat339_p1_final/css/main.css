@@ -142,6 +142,16 @@ img.adsImage{
   width:100%;
 }
 
+figure.ads2{
+  margin:0;
+  margin-left: 3rem;
+    margin-bottom: 3rem;
+
+}
+img.adsImage2{
+  width:100%;
+}
+
 .moreArticle{
   margin-left: 5%;
 }
@@ -206,10 +216,25 @@ p.readmore2{
 h3.articlez{
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-left: 10%;
+
 }
   p.articlez{
-    width:90%;
+
+    margin: 1rem 0;
+
+  }
+  h3.articlez2{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+div.about1{
+  vertical-align: top;
+}
+
+  p.articlez2{
+
     margin: 1rem 1.5rem;
 
   }
@@ -222,6 +247,23 @@ div.article2_g{
 }
 .otherdesign{
   width: 100%;
+  display: inline-block;
+}
+
+h4.alist{
+  margin-top: 0;
+}
+h4.aboutus{
+  margin-top: 3rem;
+}
+
+#aboutus1{
+  margin-top: 0;
+}
+#aboutus{
+  margin-top: 0;
+  padding: 3rem;
+
 }
 .header{
 
