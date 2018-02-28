@@ -193,14 +193,25 @@ img.designImage{
 .title{
   width: 75%;
 }
+
+
+h3.readmore2{
+  margin-top: 1rem;
+
+}
+p.readmore2{
+  margin-bottom: 1rem;
+}
+
 h3.articlez{
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 10%;
 }
   p.articlez{
-    width:100%;
-    margin: 1rem 0;
+    width:90%;
+    margin: 1rem 1.5rem;
+
   }
   p.article2{
     width:100%;
