@@ -37,6 +37,10 @@ div.grid-col-1of3{
 
 }
 
+div.grid-col-1of3-3{
+	width:32%;
+	margin: 0 0.6%:;
+}
 div.grid-col-2of3{
 	width:65%;
 }
@@ -46,8 +50,8 @@ div.grid-col-1of3-2{
 	margin: 0.5%;
 }
 .grid-col-1of2-1{
-	width:35%;
-	margin:0 5%;
+	width:50%;
+	margin:0 ;
 }
 
 @media screen and (max-width: 980px) {
@@ -181,9 +185,13 @@ div.grid-col-1of3-2{
 	}
 
 	div.grid-col-1of2-1{
-		width:80%;
+		width:100%;
 	
 		text-align: center;
+	}
+	input[type="text"]{
+		width: 90%;
+		
 	}
 	div.grid-col-1of2{
 		width:100%;
@@ -208,6 +216,6 @@ div.grid-col-1of3-2{
 @media screen and (max-width:1180px)  {
 	.grid-col-1of2-1 {
 		width: 50%;
-		margin-bottom: 5rem;
+	
 	}
 }
