@@ -185,6 +185,7 @@ div.article2_g {
 
 .otherdesign {
   width: 100%;
+  display: inline-block;
 }
 
 .header {}
