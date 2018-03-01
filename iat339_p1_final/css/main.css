@@ -49,7 +49,7 @@ a.articleList2:hover {
   margin: 0.5rem 0;
 }
 
-.articleList2_g {
+.articleList2_gray {
   display: inline-block;
   margin: 0.5rem 0;
   background-color: #F2F3F4;
@@ -64,7 +64,7 @@ a.articleList2:hover {
   margin-top: 3rem;
 }
 
-div.about {
+div.aboutpage {
 
   margin: 0 3%;
 }
@@ -90,7 +90,7 @@ p {
   text-align: center;
 }
 
-#aboutus1 {
+#aboutusInformation {
   margin-top: 0;
 
 }
@@ -99,14 +99,14 @@ p {
   margin: 3rem 0;
 }
 
-h4.aboutusC{
+h4.contactUs{
   text-align: left; 
    margin: 1rem 1.5rem;
 }
 
 @media screen and (max-width: 780px){
-  h4.aboutusC{
-    margin: 2rem 0;
+  h4.contactUs{
+    margin: 2rem 1.5rem;
   }
 }
 
@@ -151,7 +151,7 @@ div.readMore {
   margin-top: 2rem;
 }
 
-figure.prize1 {
+figure.articleImage {
   width: 100%;
   margin: 0;
 }
@@ -187,23 +187,23 @@ p.readmore2 {
   margin-bottom: 1rem;
 }
 
-h3.articlez {
+h3.article-1 {
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 3%;
 }
 
-p.articlez {
+p.article-1 {
   width: 90%;
   margin: 1rem 1.5rem;
 }
-h3.articlez2 {
+h3.article-2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
 
 }
 
-p.articlez2 {
+p.article-2 {
   width: 94%;
   margin: 1.5rem 3%;
 }
@@ -373,6 +373,13 @@ footer input[type=text] {
 
 .showcase {
   display: inline-block;
+}
+.articlepage {
+  display: inline-block;
+}
+div.articlepage{
+  width: 94%;
+  margin: 0 3%;
 }
 
 div.showcase {
