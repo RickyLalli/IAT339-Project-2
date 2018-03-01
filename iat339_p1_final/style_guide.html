@@ -1,215 +1,294 @@
 <!doctype html>
 <html lang="en">
-	<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>StyleGuide</title>
-		<link rel="stylesheet" href="css/normalize.css">
-	  <link rel="stylesheet" href="css/main.css">
-	  <link rel="stylesheet" href="css/grid_z.css">
-	  <!-- icon vectors from cloud service -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-	</head>
+<head>
 
-	<body>
-		<!-- base on project 1 Template -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>StyleGuide</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid_z.css">
+	<!-- icon vectors from cloud service -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body>
+	<!-- base on project 1 Template -->
 
 
-		<h1>P01 - Style Guide </h1>
+	<h1 style="text-align:center">DeamNest Style Guide </h1>
 
-		<p>A style guide I can use to lead me when I design the web</p>
+	<p style="text-align:center">This styleguide is meant to be used for the respective website in its design</p>
+
+	<hr>
+	<section class="content" style="margin-left: 5%">
 
 
 		<!-- nav sample from project 1 template -->
 
 
 
-	      <p>
-	        On this page:
-	      </p>
-	      <ul>
-	        <li>
-	          <a href="#interactive_elements" class="intext-link">Interactive Elements</a>
-	        </li>
-	        <li>
-	          <a href="#text_elements" class="intext-link">Text Elements</a>
-	        </li>
-	        <li>
-	          <a href="#combined_elements" class="intext-link">Combined Elements</a>
-	        </li>
-	      </ul>
+		<p>
+			On this page:
+		</p>
+		<ul>
+			<li>
+				<a href="#interactive_elements" class="intext-link">Interactive Elements</a>
+			</li>
+			<li>
+				<a href="#text_elements" class="intext-link">Text Elements</a>
+			</li>
+			<li>
+				<a href="#combined_elements" class="intext-link">Combined Elements</a>
+			</li>
+		</ul>
 
-	      <p class="links">
-	        Link for other two pages:
-	        <a href="https://iw0kmw.axshare.com" class="links">User-flows</a>
-	        <a href="citation.html" class="links">Citations</a>
-	      </p>
+		<p>
+			Link to
+
+			<a href="citation.html" class="intext-link">Citations</a>
+		</p>
 
 
 
-		        <!-- INTERACTIVE ELEMENTS SECTION // -->
-	    <section id="interactive_elements">
+		<!-- INTERACTIVE ELEMENTS SECTION // -->
+		<section id="interactive_elements">
 
-	      <!-- Default Button styling section -->
-	      <section>
+			<!-- Default Button styling section -->
+			<section>
 
-	        <h2>Navigation Button</h2>
+				<h2>Navigation Button</h2>
 
-	        <h3>CSS selector:</h3>
-	        <p>.button-nav</p>
+				<h3>CSS selector:</h3>
+				<p>.button-nav</p>
 
-	        <h3>Sample code:</h3>
-	        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+				<h3>Sample code:</h3>
+				<code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
 
-	        <h3>Rendered element:</h3>
-	        <a class="button-nav" href="#">Default Button</a>
+				<h3>Rendered element:</h3>
+				<a class="button-nav" href="#">Default Button</a>
 
-	      </section>
+			</section>
 
-<!--
+			<hr>
+
+			<!--
 	      intext link section -->
-	      <section>
-	        <h2>In-text link</h2>
-	        <h3>CSS selector:</h3>
-	        <p>.intext-link</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;a href="#" &gt;In-Text Link&lt;/a&gt;</code>
+			<section>
+				<h2>In-text link</h2>
+				<h3>CSS selector:</h3>
+				<p>.intext-link</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;a href="#" &gt;In-Text Link&lt;/a&gt;</code>
 
-	     	<h3>Rendered element:</h3>
-	        <a class="intext-link" href="https://iw0kmw.axshare.com">Home Page</a>
+				<h3>Rendered element:</h3>
+				<a class="intext-link" href="https://iw0kmw.axshare.com">Home Page</a>
 
-	      </section>
+			</section>
 
-	      <section>
-	        <h2>Submit/Reset Buttons</h2>
-	       	<h3>CSS selector:</h3>
-	        <p>.submitButton</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;input type="submit" value="Submit"&gt;</code>
-	     	<h3>Rendered element:</h3>
-	       <input type="submit" class="submitButton" value="Submit">
+			<hr>
 
-	      </section>
+			<section>
+				<h2>Submit/Reset Buttons</h2>
+				<h3>CSS selector:</h3>
+				<p>.submitButton</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;input type="submit" value="Submit"&gt;</code>
+				<h3>Rendered element:</h3>
+				<input type="submit" class="submitButton" value="Submit">
 
-	      <section>
-	        <h2>Text Input Field</h2>
-	       	<h3>CSS selector:</h3>
-	        <p>.textInput</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;input type="text" value="Default text input field"&gt;</code>
-	     	<h3>Rendered element:</h3>
-	     	<input type="text" placeholder="Your Address.." class="textInput" >
-	      </section>
+			</section>
 
-	    </section>
+			<hr>
 
-	        <!-- TEXT ELEMENTS SECTION // -->
-	    <section id="text_elements">
+			<section>
+				<h2>Text Input Field</h2>
+				<h3>CSS selector:</h3>
+				<p>.textInput</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;input type="text" value="Default text input field"&gt;</code>
+				<h3>Rendered element:</h3>
+				<input type="text" placeholder="Your Address.." class="textInput">
+			</section>
 
-	      <section>
-	        <h2>Headings</h2>
-	       	<h3>CSS selector:</h3>
-	        <p>.headingStyle</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
-	     	<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
-	     	<code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
-	     	<h3>Rendered element:</h3>
-	     	<h1 class="headingStyle"> Heading 1</h1>
-	     	<h2 class="headingStyle"> Heading 2</h2>
-	     	<h3 class="headingStyle"> Heading 3</h3>
+		</section>
 
-	      </section>
+		<hr>
+		<!-- TEXT ELEMENTS SECTION // -->
+		<section id="text_elements">
 
-	      <section>
-	        <h2>Paragraphs</h2>
-		    <h3>CSS selector:</h3>
-	        <p>.paragraphStyle</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;p&gt;This is a sample paragraph of my style guide&lt;/p&gt;</code>
-	     	<h3>Rendered element:</h3>
-	     	<p class="paragraphStyle">This is a sample paragraph of my style guide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-	      </section>
+			<section>
+				<h2>Headings</h2>
+				<h3>CSS selector:</h3>
+				<p>.headingStyle</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+				<code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code>
+				<code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code>
+				<h3>Rendered element:</h3>
+				<h1 class="headingStyle"> Heading 1</h1>
+				<h2 class="headingStyle"> Heading 2</h2>
+				<h3 class="headingStyle"> Heading 3</h3>
 
-	      <section>
-	        <h2>Bulleted Lists</h2>
-	   		<h3>CSS selector:</h3>
-	        <p>.bullList</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;ul&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ul&gt;</code>
-	     	<h3>Rendered element:</h3>
-	     	<ul class="bullList">
-	     		<li> List 1</li>
-	     		<li> List 2</li>
-	     		<li> List 3</li>
-	     	</ul>
+			</section>
 
-	      </section>
+			<hr>
 
-	      <section>
-	        <h2>Numbered Lists</h2>
-	       	<h3>CSS selector:</h3>
-	        <p>.numList</p>
-	        <h3>Sample Code:</h3>
-	     	<code>&lt;ol&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ol&gt;</code>
-	    	<h3>Rendered element:</h3>
-	     	<ol class="numList">
-	     		<li> List 1</li>
-	     		<li> List 2</li>
-	     		<li> List 3</li>
-	     	</ol>
+			<section>
+				<h2>Paragraphs</h2>
+				<h3>CSS selector:</h3>
+				<p>.paragraphStyle</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;p&gt;This is a sample paragraph of my style guide&lt;/p&gt;</code>
+				<h3>Rendered element:</h3>
+				<p class="paragraphStyle">This is a sample paragraph of my style guide. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+					scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+					Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			</section>
 
-	      </section>
+			<hr>
 
-	    </section>
-	    <!-- // TEXT ELEMENTS SECTION -->
+			<section>
+				<h2>Bulleted Lists</h2>
+				<h3>CSS selector:</h3>
+				<p>.bullList</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;ul&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ul&gt;</code>
+				<h3>Rendered element:</h3>
+				<ul class="bullList">
+					<li> List 1</li>
+					<li> List 2</li>
+					<li> List 3</li>
+				</ul>
 
+			</section>
 
-		        <!-- COMBINED ELEMENTS SECTION // -->
-	    <section id="combined_elements">
+			<hr>
 
-	      <section>
-	        <h2>Main Navigation</h2>
-	       	<h3>CSS selector:</h3>
-	        <p>.nav1</p>
-	        <h3>Sample Code:</h3>
-	        <code>&lt;ul&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page1&lt;/a&gt;&lt;/li&gt;
-	        	<br>&lt;li&gt;&lt;a href="#"&gt;Page2&lt;/a&gt;&lt;/li&gt;<br>&lt;li&gt;&lt;a href="#"&gt;Page3&lt;/a&gt;&lt;/li&gt;<br>&lt;/ul&gt;</code>
-	       	<h3>Rendered element:</h3>
+			<section>
+				<h2>Numbered Lists</h2>
+				<h3>CSS selector:</h3>
+				<p>.numList</p>
+				<h3>Sample Code:</h3>
+				<code>&lt;ol&gt;&lt;li&gt;List 1&lt;/li&gt;&lt;li&gt;List 2&lt;/li&gt;&lt;/ol&gt;</code>
+				<h3>Rendered element:</h3>
+				<ol class="numList">
+					<li> List 1</li>
+					<li> List 2</li>
+					<li> List 3</li>
+				</ol>
 
-					<nav>
-				    <ul class="nav1">
-				      <li class="navLogo">
-				        <a class="navLogo" href="index.html"><img class="nav1" src="img/logo.png" alt="logo placeholder"></a>
-				      </li>
-				      <li class="nav1">
-				        <a class="navAnchor" href="aboutPage.html">About</a>
-				      </li>
-				      <li class="nav1">
-				        <a class="navAnchor" href="showcase.html">Showcase</a>
-				      </li>
-				      <li class="nav1">
-				        <a class="navAnchor" href="subscribeOverview.html">Subscribe</a>
-				      </li>
-				      <li class="nav1">
-				        <a class="navAnchor" href="article_list_page.html">Articles</a>
-				      </li>
-				    </ul>
-				  </nav>
-					
-	      </section>
-	      <br><br><br>
-	      <section>
-	        <h2>Product Listing</h2>
-	        <p>The wireframes have some sample of my grid stucture, and different forms for different services. Please check the wireframe  	        <a href="https://iw0kmw.axshare.com" class="links">User-flows</a></p>
+			</section>
+
+		</section>
+		<!-- // TEXT ELEMENTS SECTION -->
+
+		<hr>
 
 
-	      </section>
+		<!-- COMBINED ELEMENTS SECTION // -->
+		<section id="combined_elements">
 
-	    </section>
-	    <!-- // COMBINED ELEMENTS SECTION -->
+			<section>
+				<h2>Main Navigation</h2>
+				<h3>CSS selector:</h3>
+				<p>.nav1</p>
+				<h3>Sample Code:</h3>
+				<code>
+					&lt;nav&gt;<br /> &lt;ul class="nav1"&gt;<br /> &lt;li class="navLogo"&gt;<br /> &lt;a class="navLogo" href="index.html"&gt;&lt;img class="nav1" src="img/logo.png" alt="logo placeholder"&gt;&lt;/a&gt;<br /> &lt;/li&gt;<br /> &lt;li class="nav1"&gt;<br /> &lt;a class="navAnchor" href="aboutPage.html"&gt;About&lt;/a&gt;<br /> &lt;/li&gt;<br /> &lt;li class="nav1"&gt;<br /> &lt;a class="navAnchor" href="showcase.html"&gt;Showcase&lt;/a&gt;<br /> &lt;/li&gt;<br /> &lt;li class="nav1"&gt;<br /> &lt;a class="navAnchor" href="subscribeOverview.html"&gt;Subscribe&lt;/a&gt;<br /> &lt;/li&gt;<br /> &lt;li class="nav1"&gt;<br /> &lt;a class="navAnchor" href="article_list_page.html"&gt;Articles&lt;/a&gt;<br /> &lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/nav&gt;
+				</code>
+				<h3>Rendered element:</h3>
+
+				<nav>
+					<ul class="nav1">
+						<li class="navLogo">
+							<a class="navLogo" href="index.html"><img class="nav1" src="img/logo.png" alt="logo placeholder"></a>
+						</li>
+						<li class="nav1">
+							<a class="navAnchor" href="aboutPage.html">About</a>
+						</li>
+						<li class="nav1">
+							<a class="navAnchor" href="showcase.html">Showcase</a>
+						</li>
+						<li class="nav1">
+							<a class="navAnchor" href="subscribeOverview.html">Subscribe</a>
+						</li>
+						<li class="nav1">
+							<a class="navAnchor" href="article_list_page.html">Articles</a>
+						</li>
+					</ul>
+				</nav>
+
+			</section>
+
+			<section>
+				<h2>Footer</h2>
+				<h3>CSS selector:</h3>
+				<p>.footer</p>
+				<h3>Sample Code:</h3>
+				<code>
+					<p>&lt;footer&gt;</p>
+					<p>&lt;div class="wrapper"&gt;</p>
+					<p>&lt;div class="leftSide"&gt;<br /> &lt;ul class="footer"&gt;<br /> &lt;li&gt;&lt;a href="aboutPage.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="subscribeOverview.html"&gt;Subscribe&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;Advertise With Us&lt;/a&gt;&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/div&gt;<br /> &lt;div class="middleSide"&gt;<br /> &lt;ul class="footer"&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;Media Kit&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="#"&gt;Private Policy&lt;/a&gt;&lt;/li&gt;<br /> &lt;li&gt;&lt;a href="contactus.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;<br /> &lt;/ul&gt;<br /> &lt;/div&gt;<br /> &lt;div class="rightSide"&gt;<br /> &lt;div class="footer"&gt;</p>
+					<p>&lt;a href="#" class="fa fa-facebook"&gt;&lt;/a&gt;<br /> &lt;a href="#" class="fa fa-twitter"&gt;&lt;/a&gt;<br /> &lt;a href="#" class="fa fa-instagram"&gt;&lt;/a&gt;<br /> &lt;a href="#" class="fa fa-google"&gt;&lt;/a&gt;<br /> &lt;a href="#" class="fa fa-search hiddenIcon"&gt;&lt;/a&gt;<br /> &lt;form&gt;<br /> &lt;input class="search" type="text" placeholder="Search.."&gt;</p>
+					<p>&lt;/form&gt;</p>
+					<p>&lt;/div&gt;<br /> &lt;/div&gt;</p>
+					<p>&lt;p&gt;&amp;copy; Copyright 2018, DreamNest&lt;/p&gt;</p>
+					<p>&lt;/div&gt;</p>
+					<p>&lt;/footer&gt;</p>
+				</code>
+				<h3>Rendered element:</h3>
+
+			</section>
+		</section>
+	</section>
+
+
+	<footer>
+
+		<div class="wrapper">
+
+			<div class="leftSide">
+				<ul class="footer">
+					<li><a href="aboutPage.html">About Us</a></li>
+					<li><a href="subscribeOverview.html">Subscribe</a></li>
+					<li><a href="#">Advertise With Us</a></li>
+				</ul>
+			</div>
+			<div class="middleSide">
+				<ul class="footer">
+					<li><a href="#">Media Kit</a></li>
+					<li><a href="#">Private Policy</a></li>
+					<li><a href="contactus.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="rightSide">
+				<div class="footer">
+
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-search hiddenIcon"></a>
+					<form>
+						<input class="search" type="text" placeholder="Search..">
+
+					</form>
+
+				</div>
+			</div>
+
+			<p>&copy; Copyright 2018, DreamNest</p>
+
+		</div>
+
+	</footer>
+
+
+	</section>
+	<!-- // COMBINED ELEMENTS SECTION -->
 
 </html>

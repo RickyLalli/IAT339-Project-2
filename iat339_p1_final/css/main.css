@@ -13,17 +13,16 @@ p {
   font-family: futura, sans-serif;
 } */
 
-
-div.contactinformation{
-  margin:3rem 0;
+div.contactinformation {
+  margin: 3rem 0;
   width: 100%;
   display: inline-block;
 }
-div.navlogo{
+
+div.navlogo {
   width: 20%;
   display: inline-block;
 }
-
 
 .grid-row-nav {
   width: 50%;
@@ -65,7 +64,6 @@ a.articleList2:hover {
 }
 
 div.aboutpage {
-
   margin: 0 3%;
 }
 
@@ -75,7 +73,6 @@ h2 {
 
 h3 {
   /* text-align: left; */
-
   font-weight: bold;
 }
 
@@ -93,30 +90,27 @@ p {
 
 #aboutusInformation {
   margin-top: 0;
-
 }
 
 #aboutus {
   margin: 3rem 0;
 }
 
-h4.aboutus{
+h4.aboutus {
   text-align: left;
-   margin: 1rem 1.5rem;
+  margin: 1rem 1.5rem;
 }
 
-
-
-h4.contactUs{
+h4.contactUs {
   text-align: left;
-   margin: 1rem 1.5rem;
+  margin: 1rem 1.5rem;
 }
 
-@media screen and (max-width: 780px){
-  h4.contactUs{
+@media screen and (max-width: 780px) {
+  h4.contactUs {
     margin: 2rem 1.5rem;
   }
-    h4.aboutus{
+  h4.aboutus {
     margin: 2rem 1.5rem;
   }
 }
@@ -208,16 +202,17 @@ p.article-1 {
   width: 90%;
   margin: 1rem 1.5rem;
 }
+
 h3.article-2 {
   margin-top: 3rem;
   margin-bottom: 3rem;
-
 }
 
 p.article-2 {
   width: 94%;
   margin: 1.5rem 3%;
 }
+
 p.article2 {
   width: 100%;
   margin: 1rem 0;
@@ -267,14 +262,12 @@ select {
 head, body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
-
 }
 
 html, body {
   height: 100%;
   /* margin: 0; */
 }
-
 
 input[type=radio] {
   width: 30%;
@@ -373,10 +366,12 @@ footer input[type=text] {
 .showcase {
   display: inline-block;
 }
+
 .articlepage {
   display: inline-block;
 }
-div.articlepage{
+
+div.articlepage {
   width: 94%;
   margin: 0 3%;
 }
@@ -420,7 +415,6 @@ section:not([id]) {
   text-decoration: none;
   font-weight: 800;
   /* background-color: #90CAF9; */
-
 }
 
 .button-nav:hover, .button-nav:focus {
@@ -431,7 +425,7 @@ section:not([id]) {
   /* color: white; */
 }
 
-div.sub{
+div.sub {
   width: 90%;
   display: inline-block;
   margin: 0 5%;
@@ -787,7 +781,6 @@ section.mainCarousel {
   text-align: center;
 }
 
-
 .article-container {
   display: flex;
   flex-direction: row;
@@ -856,16 +849,17 @@ section.mainCarousel {
   padding: 0;
 }
 
-.cardDate{
+.cardDate {
   width: 80%;
-/*  display: inline-block;*/
+  /*  display: inline-block;*/
   text-align: left;
 }
 
-#city{
+#city {
   width: 80%;
   display: block;
 }
+
 /* size of image inside cards */
 
 .center-cropped {
@@ -1041,7 +1035,7 @@ input.cvvtext {
 }
 
 select {
-  border-radius:4px;
+  border-radius: 4px;
   width: 80%;
   margin-top: 0.5rem;
   height: 2.2rem;
@@ -1076,7 +1070,6 @@ select {
 .SubForm form {}
 
 }
-
 
 ul.footer {
   list-style-type: none;
@@ -1273,28 +1266,22 @@ footer p {
   min-height: 90vh;
 }
 
-
 /* other */
+
 #province {
   /* width: 15%; */
 }
 
-@media screen and (max-width: 580px){
-  li.navLogo{
+@media screen and (max-width: 580px) {
+  li.navLogo {
     width: 100%;
     text-align: center;
   }
-
-  li.nav1{
+  li.nav1 {
     padding-top: 0;
     width: 25%;
   }
-
-
-
 }
-
-
 
 /* end of subscribe overview page here */
 
