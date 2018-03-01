@@ -191,7 +191,7 @@ div.grid-col-1of3-2{
 	}
 	input[type="text"]{
 		width: 90%;
-		
+
 	}
 	div.grid-col-1of2{
 		width:100%;
@@ -200,6 +200,15 @@ div.grid-col-1of3-2{
 	}
 	input.cvvtext{
 		width: 100%;
+	}
+	div.grid-col-1of3-3{
+		width: 100%;
+
+	}
+
+	#subscriptionButton{
+	
+		padding: 0;
 	}
 
 }

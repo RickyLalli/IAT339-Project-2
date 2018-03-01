@@ -417,7 +417,7 @@ input[type=text] {
   margin-left: 0rem;
   display: block;
   border: 0.1rem solid #616161;
-  width: 30%;
+  width: 100%;
   padding: 0.5rem 1rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
