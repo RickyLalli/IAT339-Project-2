@@ -28,7 +28,7 @@ div.grid-col-3of4{
 div.grid-col-1of2{
 
 	width:48%;
-	
+
 
 }
 div.grid-col-1of3{
@@ -186,7 +186,7 @@ div.grid-col-1of3-2{
 
 	div.grid-col-1of2-1{
 		width:100%;
-	
+
 		text-align: center;
 	}
 	input[type="text"]{
@@ -195,7 +195,7 @@ div.grid-col-1of3-2{
 	}
 	div.grid-col-1of2{
 		width:100%;
-	
+
 		text-align: center;
 	}
 	input.cvvtext{
@@ -207,7 +207,7 @@ div.grid-col-1of3-2{
 	}
 
 	#subscriptionButton{
-	
+
 		padding: 0;
 	}
 
@@ -222,9 +222,36 @@ div.grid-col-1of3-2{
 
 }
 
-@media screen and (max-width:1180px)  {
-	.grid-col-1of2-1 {
-		width: 50%;
-	
+@media screen and (max-width:1111px)  {
+	div.sub {
+		width: 100%;
 	}
+	#subscriptionButton {
+		float: none;
+		margin: 2rem auto;
+	}
+}
+
+@media screen and (max-width:855px)  {
+.grid-col-1of2-1 {
+	width: 100%;
+}
+
+
+#subscriptionButton {
+	width: 50%
+}
+
+
+}
+
+@media screen and (max-width:455px) {
+
+
+
+input[type="text"]{
+	width: auto;
+
+}
+
 }
