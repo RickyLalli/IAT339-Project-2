@@ -81,12 +81,26 @@ p {
   text-align: center;
 }
 
+#aboutus1{
+  margin-top: 0;
+}
+#aboutus{
+  margin:3rem 0;
+}
 figure.ads {
   margin: 0 3rem;
   margin-bottom: 3rem;
 }
 
 img.adsImage {
+  width: 100%;
+}
+figure.ads2 {
+  margin: 0 3rem;
+  margin-bottom: 3rem;
+}
+
+img.adsImage2 {
   width: 100%;
 }
 
@@ -357,6 +371,10 @@ section:not([id]) {
   border: 0.1rem solid #F3A086;
 }
 
+div.sub{
+  width: 100%;
+  display: inline-block;  
+}
 .intext-link {
   color: #E0E0E0;
   text-decoration: none;
@@ -943,7 +961,11 @@ input.cvvtext {
   margin: 0;
   width: 80%;
 }
-
+  input.cvvtext{
+    width: 90%;
+   
+   
+  }
 select {
   width: 50%;
   margin-top: 1rem;
@@ -956,6 +978,9 @@ select {
   display: block;
 }
 
+#cvv1{
+  margin-right:4%;
+}
 #subscriptionheader {
   margin-left: 5%;
   margin-bottom: 2%;
@@ -963,6 +988,7 @@ select {
 }
 
 #subscriptionButton {
+  margin:2rem 40%;
   text-align: center;
   display: block;
   width: 20%;

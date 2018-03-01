@@ -26,10 +26,11 @@ div.grid-col-3of4{
 	width:75%;
 }
 div.grid-col-1of2{
-	width:50%;
+
+	width:48%;
+	
 
 }
-
 div.grid-col-1of3{
 
 	width: 33%;
@@ -177,6 +178,20 @@ div.grid-col-1of3-2{
 	}
 	div.aboutright{
 		display: none;
+	}
+
+	div.grid-col-1of2-1{
+		width:80%;
+	
+		text-align: center;
+	}
+	div.grid-col-1of2{
+		width:100%;
+	
+		text-align: center;
+	}
+	input.cvvtext{
+		width: 100%;
 	}
 
 }
