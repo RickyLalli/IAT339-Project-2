@@ -49,7 +49,6 @@ a.articleList2:hover {
   width: 20%;
   height: 3rem;
   text-align: center;
-  ;
   display: block;
   margin-left: 40%;
   margin-top: 3rem;
@@ -66,7 +65,7 @@ h2 {
 
 h3 {
   text-align: left;
-  font-weight: thin;
+  font-weight: bold;
 }
 
 p {
@@ -254,7 +253,7 @@ footer {
   overflow: hidden;
 }
 
-ul.footer {
+.footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -373,7 +372,7 @@ section:not([id]) {
 
 div.sub{
   width: 100%;
-  display: inline-block;  
+  display: inline-block;
 }
 .intext-link {
   color: #E0E0E0;
@@ -512,7 +511,7 @@ li.nav1 {
 }
 
 
-li.nav1, a.nav1 {
+li.nav1, a.navAnchor {
   display: block;
   text-align: center;
   padding-top: 1rem;
@@ -540,17 +539,19 @@ img.nav1 {
   margin-top: 10px;
 }
 
-a.nav1 {
+a.navAnchor {
   color: #616161;
   text-decoration: none;
   background-color: white;
   margin-bottom: 5px;
 }
 
-a.nav1:hover, a.nav1:focus {
+a.navAnchor:hover, a.navAnchor:focus {
   text-decoration: none;
   color: #90CAF9;
 }
+
+
 
 
 /* TESTING */
@@ -963,8 +964,8 @@ input.cvvtext {
 }
   input.cvvtext{
     width: 90%;
-   
-   
+
+
   }
 select {
   width: 50%;
@@ -1031,6 +1032,7 @@ ul.footer {
 .footer li {
   margin: 5px 0;
 }
+
 
 .footer a {
   position: relative;
