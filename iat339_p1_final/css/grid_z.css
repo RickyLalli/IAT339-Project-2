@@ -185,6 +185,14 @@ div.grid-col-1of3-2{
 }
 
 @media screen and (max-width: 600px) {
+	div.cardDate{
+		width: 100%;
+		display: inline-block;
+	}
+	#city{
+		width: 100%;
+		display: inline-block;
+	}
 	div.aboutleft{
 		width:100%;
 
@@ -212,9 +220,12 @@ div.grid-col-1of3-2{
 	}
 	div.grid-col-1of3-3{
 		width: 100%;
+		text-align: left;
 
 	}
-
+	#province{
+		width: 85%;
+	}
 	#subscriptionButton{
 
 		padding: 0;
@@ -261,7 +272,7 @@ div.grid-col-1of3-2{
 
 
 input[type="text"]{
-	width: auto;
+	width: 80%;
 
 }
 
