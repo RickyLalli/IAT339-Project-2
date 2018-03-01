@@ -80,7 +80,7 @@ p {
 
 #aboutus1 {
   margin-top: 0;
-  
+
 }
 
 #aboutus {
@@ -138,7 +138,7 @@ img.rprize1Image {
 }
 
 img.prize1Image {
-
+  width: 100%;
   margin-left: 3%;
   margin-right: 3%;
 }

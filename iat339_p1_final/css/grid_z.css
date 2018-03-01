@@ -222,6 +222,12 @@ div.grid-col-1of3-2{
 
 }
 
+@media screen and (max-width: 500px){
+	div.navlogo{
+		display: none;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	div.readmore2{
 		width: 100%;
