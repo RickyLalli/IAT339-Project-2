@@ -45,10 +45,10 @@ a.articleList2:hover {
 
 #shareSpace {
   width: 20%;
-  height: 3rem;
+  /* height: 3rem;
   text-align: center;
   display: block;
-  margin-left: 40%;
+  margin-left: 40%; */
   margin-top: 3rem;
 }
 
@@ -80,7 +80,7 @@ p {
 
 #aboutus1 {
   margin-top: 0;
-  
+
 }
 
 #aboutus {
