@@ -64,6 +64,7 @@ a.articleList2:hover {
   margin-top: 3rem;
 }
 
+
 div.aboutpage {
 
   margin: 0 3%;
@@ -277,8 +278,9 @@ html, body {
 
 
 input[type=radio] {
-  width: 30%;
+  width: 10%;
 }
+
 
 footer {
   /*  position: absolute;*/
