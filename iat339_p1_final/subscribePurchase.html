@@ -1,20 +1,23 @@
 <!doctype html>
 <html lang="en">
-	<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Purchase</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/grid_z.css">
-	  <!-- icon vectors from cloud service -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Purchase</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid_z.css">
+	<!-- icon vectors from cloud service -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
 
-	</head>
+</head>
+
+<body>
 
 	<nav>
 		<ul class="nav1">
@@ -36,115 +39,117 @@
 		</ul>
 	</nav>
 
+	<div class="content">
+
 
 
 		<div id="subscription">
 			<h2 id="subscriptionheader">Subscription</h2>
 			<div class="sub">
-			<div class="grid-col-1of2-1">
+				<div class="grid-col-1of2-1">
 
 
-				<h3>Shipping Infomation</h3>
-				<input type="text" name="address" placeholder="Address">
-				<div id="city">
-					<div class="grid-col-1of3-3">
-						<input type="text" name="city" placeholder="City">
-					</div>
+					<h3>Shipping Infomation</h3>
+					<input type="text" name="address" placeholder="Address">
+					<div id="city">
+						<div class="grid-col-1of3-3">
+							<input type="text" name="city" placeholder="City">
+						</div>
 
-					<div class="grid-col-1of3-3">
-						<select id="province">
+						<div class="grid-col-1of3-3">
+							<select id="province">
 							<option value="BC">BC</option>
 							<option value="Alberta">Alberta</option>
 						</select>
+						</div>
+						<div class="grid-col-1of3-3">
+							<input type="text" name="postalcode" placeholder="Postal Code">
+						</div>
 					</div>
-					<div class="grid-col-1of3-3">
-						<input type="text" name="postalcode" placeholder="Postal Code">
-					</div>
-				</div>
-				<input type="text" name="email" placeholder="Email">
-				<h3>Subscription Option</h3>
-				<div class="SubForm">
-				<form>
-					<p><input type="radio" name="subscriptionOption" value="Digital" checked> Digital</p>
-					<p><input type="radio" name="subscriptionOption" value="Print" checked> Print</p>
-					<p><input type="radio" name="subscriptionOption" value="Digital and Print" checked> Digital & Print</p>
-				</form>
-				<form>
-				  <p><input type="radio" name="subscriptionOption" value="24 month ( 24 issues )" checked> 24 month ( 24 issues )</p>
-				  <p><input type="radio" name="subscriptionOption" value="12 month ( 12 issues )"> 12 month ( 12 issues )</p>
-				  <p><input type="radio" name="subscriptionOption" value="6 month ( 6 issues )"> 6 month ( 6 issues )</p>
-				</form>
-			</div>
-			</div>
-			<div class="grid-col-1of2-1">
-				<h3>Payment Information</h3>
-				<p>Card Number</p>
-				<input type="text" name="cardnumber" value="">
-				<p>Cardholder Name</p>
-				<input type="text" name="cardholderName" value="">
-				<p>Billing Adress</p>
-				<input type="text" name="billingAdress" value="">
-				<div class="cardDate">
-					<div class="grid-col-1of2" id="cvv1">
-						<p>Expiry Date</p>
-						<input class="cvvtext" type="text" name="expiryDate" value="">
-					</div>
-					<div class="grid-col-1of2">
-						<p>CVV Number</p>
-						<input class="cvvtext" type="text" name="cvv" value="">
+					<input type="text" name="email" placeholder="Email">
+					<h3>Subscription Option</h3>
+					<div class="SubForm">
+						<form>
+							<p><input type="radio" name="subscriptionOption" value="Digital" checked> Digital</p>
+							<p><input type="radio" name="subscriptionOption" value="Print" checked> Print</p>
+							<p><input type="radio" name="subscriptionOption" value="Digital and Print" checked> Digital & Print</p>
+						</form>
+						<form>
+							<p><input type="radio" name="subscriptionOption" value="24 month ( 24 issues )" checked> 24 month ( 24 issues )</p>
+							<p><input type="radio" name="subscriptionOption" value="12 month ( 12 issues )"> 12 month ( 12 issues )</p>
+							<p><input type="radio" name="subscriptionOption" value="6 month ( 6 issues )"> 6 month ( 6 issues )</p>
+						</form>
 					</div>
 				</div>
+				<div class="grid-col-1of2-1">
+					<h3>Payment Information</h3>
+					<p>Card Number</p>
+					<input type="text" name="cardnumber" value="">
+					<p>Cardholder Name</p>
+					<input type="text" name="cardholderName" value="">
+					<p>Billing Adress</p>
+					<input type="text" name="billingAdress" value="">
+					<div class="cardDate">
+						<div class="grid-col-1of2" id="cvv1">
+							<p>Expiry Date</p>
+							<input class="cvvtext" type="text" name="expiryDate" value="">
+						</div>
+						<div class="grid-col-1of2">
+							<p>CVV Number</p>
+							<input class="cvvtext" type="text" name="cvv" value="">
+						</div>
+					</div>
+				</div>
 			</div>
-			</div>
-			<button type="button"  id="subscriptionButton" class="button-nav" onclick="">Purchase</button>
+			<button type="button" id="subscriptionButton" class="button-nav" onclick="">Purchase</button>
 
 
 		</div>
 
 
+	</div>
 
+	<footer>
 
-		<footer>
+		<div class="wrapper">
 
-	      <div class="wrapper">
+			<div class="leftSide">
+				<ul class="footer">
+					<li><a href="aboutPage.html">About Us</a></li>
+					<li><a href="subscribeOverview.html">Subscribe</a></li>
+					<li><a href="aboutPage.html">Advertise With Us</a></li>
+				</ul>
+			</div>
+			<div class="middleSide">
+				<ul class="footer">
+					<li><a href="contactUs.html">Media Kit</a></li>
+					<li><a href="#">Private Policy</a></li>
+					<li><a href="contactUs.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div class="rightSide">
+				<div class="footer">
 
-	        <div class="leftSide">
-	          <ul class="footer">
-	            <li><a href="aboutPage.html">About Us</a></li>
-	            <li><a href="subscribeOverview.html">Subscribe</a></li>
-	            <li><a href="aboutPage.html">Advertise With Us</a></li>
-	          </ul>
-	        </div>
-	        <div class="middleSide">
-	          <ul class="footer">
-	            <li><a href="contactUs.html">Media Kit</a></li>
-	            <li><a href="#">Private Policy</a></li>
-	            <li><a href="contactUs.html">Contact Us</a></li>
-	          </ul>
-	        </div>
-	        <div class="rightSide">
-	          <div class="footer">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-search hiddenIcon"></a>
+					<form>
+						<input class="search" type="text" placeholder="Search..">
 
-	              <a href="#" class="fa fa-facebook"></a>
-	              <a href="#" class="fa fa-twitter"></a>
-	              <a href="#" class="fa fa-instagram"></a>
-	              <a href="#" class="fa fa-google"></a>
-	              <a href="#" class="fa fa-search hiddenIcon"></a>
-	              <form>
-	                <input class="search" type="text" placeholder="Search..">
+					</form>
 
-	              </form>
+				</div>
+			</div>
 
-	          </div>
-	        </div>
+			<p>&copy; Copyright 2018, DreamNest</p>
 
-	        <p>&copy; Copyright 2018, DreamNest</p>
+		</div>
 
-	      </div>
+	</footer>
 
-	  </footer>
-
-	</body>
+</body>
 
 
 </html>
