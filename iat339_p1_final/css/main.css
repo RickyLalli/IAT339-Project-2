@@ -74,7 +74,8 @@ h2 {
 }
 
 h3 {
-  text-align: left;
+  /* text-align: left; */
+
   font-weight: bold;
 }
 
@@ -236,19 +237,6 @@ div.article2_g {
 .logoImage {
   width: 100%;
 }
-
-a.button-nav {
-  font-family: 'Raleway', sans-serif;
-  color: black;
-  text-decoration: none;
-  font-weight: 800;
-}
-
-a.button-nav:hover {
-  /* text-decoration: underline; */
-  /*  color:white;*/
-}
-
 
 input[type=text] {
   width: 100%;
@@ -417,10 +405,20 @@ section:not([id]) {
   padding: 1rem 2rem;
   text-align: center;
   display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  /* background-color: #90CAF9; */
+
 }
 
 .button-nav:hover, .button-nav:focus {
-  border: 0.1rem solid #F3A086;
+  border: 0.1rem solid #474954;
+  /* background-color: #474954; */
+  color: #90CAF9;
+  /* background: linear-gradient(to right, #90CAF9 , #2196F3); */
+  /* color: white; */
 }
 
 div.sub{
@@ -826,7 +824,8 @@ section.mainCarousel {
   /* width: 200px; */
   padding: 0.5em;
   /* border: 0.1em solid #000; */
-  border: 0.1em solid #90CAF9;
+  /* border: 0.1em solid #90CAF9; */
+  border: 0.1em solid #BBDEFB;
   flex-direction: row;
   /* position: relative; */
   margin: 5px;
@@ -834,9 +833,9 @@ section.mainCarousel {
   background: #fff;
 }
 
-.article h3 {
+/* .article h3 {
   text-align: center;
-}
+} */
 
 .article li {
   margin: 1rem;
@@ -882,7 +881,7 @@ section.mainCarousel {
 
 .article:hover, .article:focus {
   text-decoration: none;
-  border: 0.1rem solid #F3A086;
+  /* border: 0.1rem solid #F3A086; */
   background-color: #DCDCDC;
 }
 
@@ -911,6 +910,14 @@ section.mainCarousel {
   font-weight: 400;
   font-size: 0.9rem;
   margin: 0;
+}
+
+h3.articleTitle {
+  text-align: left;
+}
+
+h3.otherTitle {
+  text-align: center;
 }
 
 .subscriptionBox img {
