@@ -15,25 +15,27 @@
 
 
 	</head>
+
 	<nav>
-	    <ul class="nav1">
-	      <li class="navLogo">
-	        <a class="navLogo" href="index.html"><img class="nav1" src="img/logo.png" alt="logo placeholder"></a>
-	      </li>
-	      <li class="nav1">
-	        <a class="nav1" href="aboutPage.html">About</a>
-	      </li>
-	      <li class="nav1">
-	        <a class="nav1" href="showcase.html">Showcase</a>
-	      </li>
-	      <li class="nav1">
-	        <a class="nav1" href="subscribeOverview.html">Subscribe</a>
-	      </li>
-	      <li class="nav1">
-	        <a class="nav1" href="article_list_page.html">Articles</a>
-	      </li>
-	      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-	    </ul>
+		<ul class="nav1">
+			<li class="navLogo">
+				<a class="navLogo" href="index.html"><img class="nav1" src="img/logo.png" alt="logo placeholder"></a>
+			</li>
+			<li class="nav1">
+				<a class="navAnchor" href="aboutPage.html">About</a>
+			</li>
+			<li class="nav1">
+				<a class="navAnchor" href="showcase.html">Showcase</a>
+			</li>
+			<li class="nav1">
+				<a class="navAnchor" href="subscribeOverview.html">Subscribe</a>
+			</li>
+			<li class="nav1">
+				<a class="navAnchor" href="article_list_page.html">Articles</a>
+			</li>
+		</ul>
+	</nav>
+
 
 
 		<div id="subscription">
@@ -43,7 +45,7 @@
 
 
 				<h3>Shipping Infomation</h3>
-				<input type="text" name="address" value="Address">
+				<input type="text" name="address" placeholder="Address">
 				<div id="city">
 					<div class="grid-col-1of3-3">
 						<input type="text" name="city" value="City">
@@ -103,43 +105,44 @@
 
 
 		<footer>
-			<nav>
-				<div class="wrapper">
 
-					<div class="leftSide">
-						<ul class="footer">
-                  <li><a href="aboutPage.html">About Us</a></li>
-                  <li><a href="subscribeOverview.html">Subscribe</a></li>
-                  <li><a href="aboutPage.html">Advertise With Us</a></li>
-                </ul>
-              </div>
-              <div class="middleSide">
-                <ul class="footer">
-                  <li><a href="contactUs.html">Media Kit</a></li>
-                  <li><a href="#">Private Policy</a></li>
-                  <li><a href="contactUs.html">Contact Us</a></li>
-						</ul>
-					</div>
-					<div class="rightSide">
-						<ul class="footer">
-							<div class="seachContainer">
-								<a href="#" class="fa fa-facebook"></a>
-								<a href="#" class="fa fa-twitter"></a>
-								<a href="#" class="fa fa-instagram"></a>
-								<a href="#" class="fa fa-google"></a>
-								<form>
-									<input type="text" placeholder="Search..">
+	      <div class="wrapper">
 
-								</form </div>
-						</ul>
-						</div>
+	        <div class="leftSide">
+	          <ul class="footer">
+	            <li><a href="aboutPage.html">About Us</a></li>
+	            <li><a href="subscribeOverview.html">Subscribe</a></li>
+	            <li><a href="aboutPage.html">Advertise With Us</a></li>
+	          </ul>
+	        </div>
+	        <div class="middleSide">
+	          <ul class="footer">
+	            <li><a href="contactUs.html">Media Kit</a></li>
+	            <li><a href="#">Private Policy</a></li>
+	            <li><a href="contactUs.html">Contact Us</a></li>
+	          </ul>
+	        </div>
+	        <div class="rightSide">
+	          <div class="footer">
 
-						<p>&copy; Copyright 2018, DreamNest</p>
+	              <a href="#" class="fa fa-facebook"></a>
+	              <a href="#" class="fa fa-twitter"></a>
+	              <a href="#" class="fa fa-instagram"></a>
+	              <a href="#" class="fa fa-google"></a>
+	              <a href="#" class="fa fa-search hiddenIcon"></a>
+	              <form>
+	                <input class="search" type="text" placeholder="Search..">
 
-					</div>
-			</nav>
-		</footer>
+	              </form>
 
+	          </div>
+	        </div>
+
+	        <p>&copy; Copyright 2018, DreamNest</p>
+
+	      </div>
+
+	  </footer>
 
 	</body>
 
