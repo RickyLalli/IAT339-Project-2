@@ -13,6 +13,17 @@ p {
   font-family: futura, sans-serif;
 } */
 
+
+
+div.navlogo{
+  width: 20%;
+display: inline-block;
+}
+div.navlogo2{
+  
+display: inline-block;
+}
+
 .grid-row-nav {
   width: 50%;
   opacity: 0.85;
@@ -1217,7 +1228,22 @@ footer p {
   /* width: 15%; */
 }
 
+@media screen and (max-width: 580px){
+  li.navLogo{
+    width: 100%;
+    text-align: center;
+  }
+  li.nav1{
+    padding-top: 0;
+  }
 
+  li.navLogo{
+    width: 100%;
+    text-align: center;
+
+  }
+
+}
 
 
 /* end of subscribe overview page here */
