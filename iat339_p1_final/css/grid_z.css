@@ -5,6 +5,12 @@
 }
 
 
+div.grid-col-1of2-subscription{
+  width: 45%;
+  display: inline-block;
+}
+
+
 div.aboutleft{
 	vertical-align: top;
 	width: 60%;
@@ -207,7 +213,7 @@ div.grid-col-1of3-2{
 		text-align: center;
 	}
 	input[type="text"]{
-		width: 90%;
+		width: 80%;
 
 	}
 	div.grid-col-1of2{
@@ -268,7 +274,10 @@ div.grid-col-1of3-2{
 }
 
 @media screen and (max-width:455px) {
-
+div.grid-col-1of2-subscription{
+  width: 100%;
+  display: inline-block;
+}
 
 
 input[type="text"]{
