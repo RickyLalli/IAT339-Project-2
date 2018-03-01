@@ -27,7 +27,7 @@ div.grid-col-3of4{
 }
 div.grid-col-1of2{
 	width:50%;
-	
+
 }
 
 div.grid-col-1of3{
@@ -75,7 +75,7 @@ div.grid-col-1of3-2{
 	}
 	div.grid-col-1of2{
 		width:100%;
-		
+
 	}
 	figure.otherdesign{
 		margin: 0;
@@ -83,18 +83,18 @@ div.grid-col-1of3-2{
 	}
 
 	div.readMore{
-		width: 94%;	
+		width: 94%;
 		margin:2rem 3%;
-		
+
 	}
 	div.showcase{
 		width:94%;
-		margin: 0 3%;		
+		margin: 0 3%;
 	}
 	div.grid-col-1of3-2{
 
 		width: 100%;
-		
+
 	}
 	figure.more{
 		width: 100%;
@@ -188,4 +188,11 @@ div.grid-col-1of3-2{
 
 
 
+}
+
+@media screen and (max-width:1180px)  {
+	.grid-col-1of2-1 {
+		width: 50%;
+		margin-bottom: 5rem;
+	}
 }
