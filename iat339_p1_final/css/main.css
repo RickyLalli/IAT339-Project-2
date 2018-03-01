@@ -90,17 +90,7 @@ img.adsImage {
   width: 100%;
 }
 
-figure.ads2{
-  margin:0;
-  margin-left: 3rem;
-    margin-bottom: 3rem;
-
-}
-img.adsImage2{
-  width:100%;
-}
-
-.moreArticle{
+.moreArticle {
   margin-left: 5%;
 }
 
@@ -162,11 +152,8 @@ p.readmore2 {
 h3.articlez {
   margin-top: 3rem;
   margin-bottom: 3rem;
-
+  margin-left: 10%;
 }
-  p.articlez{
-    width:90%;
-    margin: 1rem 1.5rem;
 
 p.articlez {
   width: 90%;
@@ -184,9 +171,7 @@ div.article2_g {
 
 .otherdesign {
   width: 100%;
-  display: inline-block;
 }
-.header{
 
 .header {}
 
