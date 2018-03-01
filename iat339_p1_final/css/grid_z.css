@@ -28,8 +28,13 @@ div.grid-col-3of4{
 div.grid-col-1of2{
 
 	width:48%;
+	
 
-
+}
+div.grid-col-1of2-o{
+	width: 48%;
+	margin-right: 2%;
+	
 }
 div.grid-col-1of3{
 
@@ -79,6 +84,10 @@ div.grid-col-1of3-2{
 		text-align: center;
 	}
 	div.grid-col-1of2{
+		width:100%;
+
+	}
+		div.grid-col-1of2-o{
 		width:100%;
 
 	}
