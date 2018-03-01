@@ -80,6 +80,7 @@ p {
 
 #aboutus1 {
   margin-top: 0;
+  
 }
 
 #aboutus {
@@ -173,7 +174,16 @@ p.articlez {
   width: 90%;
   margin: 1rem 1.5rem;
 }
+h3.articlez2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 
+}
+
+p.articlez2 {
+  width: 94%;
+  margin: 1.5rem 3%;
+}
 p.article2 {
   width: 100%;
   margin: 1rem 0;
