@@ -56,10 +56,10 @@ a.articleList2:hover {
 
 #shareSpace {
   width: 20%;
-  height: 3rem;
+  /* height: 3rem;
   text-align: center;
   display: block;
-  margin-left: 40%;
+  margin-left: 40%; */
   margin-top: 3rem;
 }
 
@@ -256,6 +256,12 @@ select {
 head, body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
 
 input[type=radio] {
@@ -267,13 +273,16 @@ footer {
   width: 100%;
   background-color: #616161;
   /* padding: 60px, 0px; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   /* negative value of footer height */
   height: 180px;
-  /* clear: both; */
+  right: 0;
   left: 0;
   bottom: 0;
   overflow: hidden;
+  /* position:absolute; */
+  /* margin-bottom: 180px; */
+  clear: both;
 }
 
 .footer {
@@ -1244,6 +1253,7 @@ footer p {
   }
 
 }
+
 
 
 /* end of subscribe overview page here */
