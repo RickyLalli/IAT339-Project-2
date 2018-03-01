@@ -274,8 +274,9 @@ head, body {
 
 html, body {
   height: 100%;
-  margin: 0;
+  /* margin: 0; */
 }
+
 
 input[type=radio] {
   width: 30%;
@@ -1251,6 +1252,10 @@ footer p {
   }
 }
 
+.content {
+  min-height: 90vh;
+}
+
 
 /* other */
 #province {
@@ -1262,13 +1267,12 @@ footer p {
     width: 100%;
     text-align: center;
   }
-<<<<<<< Updated upstream
+
   li.nav1{
     padding-top: 0;
     width: 25%;
   }
-=======
->>>>>>> Stashed changes
+
 
 
 }
