@@ -44,7 +44,16 @@ a.articleList2:hover {
   margin: 0.5rem 0;
   background-color: #F2F3F4;
 }
-
+div.sub{
+  display: inline-block;
+  width: 100%;
+}
+#aboutus1{
+  margin-top: 0;
+}
+#aboutus{
+  margin: 3rem 0;
+}
 #shareSpace {
   width: 20%;
   height: 3rem;
@@ -87,6 +96,14 @@ figure.ads {
 }
 
 img.adsImage {
+  width: 100%;
+}
+figure.ads2 {
+  margin: 0 ;
+  margin-bottom: 3rem;
+}
+
+img.adsImage2 {
   width: 100%;
 }
 
@@ -171,6 +188,7 @@ div.article2_g {
 
 .otherdesign {
   width: 100%;
+  display: inline-block;
 }
 
 .header {}
@@ -195,6 +213,8 @@ a.button-nav {
   text-decoration: none;
   font-weight: 800;
 }
+
+#
 
 a.button-nav:hover {
   /* text-decoration: underline; */
@@ -965,7 +985,7 @@ select {
 #subscriptionButton {
   margin-left: 40%;
   margin-right: : 40%;
-  margin-top: 33rem;
+  margin-top: 2rem;
   text-align: center;
   display: block;
   width: 20%;
@@ -1176,5 +1196,11 @@ footer p {
     display: block;
     float: none;
 }
-
+a{
+  margin:0;
+}
+h5.alist{
+  margin:0;
+  padding: 0;
+}
 /* end of subscribe overview page here */

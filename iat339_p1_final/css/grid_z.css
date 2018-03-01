@@ -15,10 +15,11 @@ div.aboutleft{
 div.aboutright{
 	display: inline-block;
 	width:35%;
-	margin:0;
+	margin:0 2%;
+
 }
 div.grid-col-1of4{
-	width: 25%;
+	width: 20%;
 }
 
 div.grid-col-3of4{
