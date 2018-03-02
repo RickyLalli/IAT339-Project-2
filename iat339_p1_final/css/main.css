@@ -101,21 +101,21 @@ p {
   margin: 3rem 0;
 }
 
-h4.aboutus {
+h3.aboutus {
   text-align: left;
   margin: 1rem 1.5rem;
 }
 
-h4.contactUs {
+h3.contactUs {
   text-align: left;
   margin: 1rem 1.5rem;
 }
 
 @media screen and (max-width: 780px) {
-  h4.contactUs {
+  h3.contactUs {
     margin: 2rem 1.5rem;
   }
-  h4.aboutus {
+  h3.aboutus {
     margin: 2rem 1.5rem;
   }
 }
