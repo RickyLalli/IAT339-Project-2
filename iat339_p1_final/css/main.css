@@ -13,6 +13,10 @@ p {
   font-family: futura, sans-serif;
 } */
 
+div.inputsample{
+  width: 50%;
+  display: inline-block;  
+}
 div.contactinformation {
   margin: 3rem 0;
   width: 100%;
